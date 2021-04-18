@@ -1,6 +1,6 @@
 .App{
   min-height: 100vh;
- background-image: linear-gradient(to top, #31bde0 0%, #b490ca 100%);
+ background: #121619
 }
 
 .search-form{
@@ -14,17 +14,25 @@
 .search-bar{
 width: 40%;
 border: none;
+border-radius: 10px;
 padding: 10px;
 font-size: 19px;
+margin-right: 10px;
 }
 
 .search-button{
-  background: #eb7a39;
   border: none;
+  border-radius: 10px;
   padding: 12px 21px;
-  color: rgb(17, 16, 16);
+  background: #E43F6F;
+  color: white;
   cursor: pointer;
   font-size: 16px;
+}
+
+.search-button:hover {
+  background: white;
+  color: #E43F6F;
 }
 
 .recipes{
@@ -32,4 +40,5 @@ font-size: 19px;
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
 
